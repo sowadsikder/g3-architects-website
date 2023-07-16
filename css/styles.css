@@ -1,9 +1,45 @@
 /* Universal Styling Start  */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
+/*  Shared Styling Start */
+
+/* Header Styling Start */
+
+header#header {
+    background: rgba(255, 144, 14, 0.10);
+}
+
+/* Nav Styling Start */
+
+nav#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 30px;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  list-style: none;
+  margin: 0 30px;
+}
+nav > ul > li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color:#424242;
+}
+
+
+
+
+
+/* Responsive media Query Start  */
